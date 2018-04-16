@@ -1,0 +1,258 @@
+/***** BASE STYLES *****/
+/***** HEADER *****/
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover;
+    
+}
+#header-left {
+    height: 100px;
+    float: left;
+    
+
+    
+}
+#header-right {
+    height: 100px;
+    
+    float: left;
+    
+    
+      
+}
+
+#header-h2 {
+    clear: both;
+    height: 25px;
+    margin: 75px;
+    width: 1200px;
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    color: white;
+    padding: 20px 0;
+    
+    
+}
+header h2 span {
+    color: black;
+}
+header h1 {
+    font-family: 'Lara', serif;
+    font-size: 17px;
+    color: green;
+    padding: 50px 0;
+    overflow: hidden;
+}
+nav {
+    float: right; 
+    padding: 75px 40px;
+}
+
+nav ul li {
+    text-transform: uppercase;  
+    
+    font-size:17px;
+   
+    padding-left: 80px;
+
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+/***** ABOUT *****/
+#about-left {
+    
+    
+    float: left;
+    clear: left;
+    
+    
+}
+
+#about-right {
+    
+    
+    float: right;
+    clear: right;
+    
+}
+#about .full-width {
+    padding: 80px 0;
+}
+#about h2 {
+    font-family: 'Lora',serif;
+    font-size: 36px;
+}
+#about p {
+    font-size: 21px;
+    color:#7f7f7f;
+    line-height: 42px;
+    padding-right: 50px;
+}
+
+
+#about .full-width {
+    padding: 80px
+} 
+/***** Work *****/   
+#work-1st {
+    height: 200px;
+    float: left;
+    text-align: center;
+        
+}
+
+
+#work-2nd {
+    height: 200px;
+    float: left;
+    
+    
+}
+#work-3rd {
+    height: 200px;
+    float: left;
+    
+    
+    
+}
+#work {background-color: #f9ceb7;
+    text-align: center;
+
+}
+#work .full-width {
+    padding: 115px 0;
+}
+#work img {
+    padding-bottom: 30px;
+}
+#work h3 {
+    margin: 0 auto;
+    font-size: 24px;
+    width: 190px;
+    font-family: Source San Pro;
+}
+#work p {
+    font-family: serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2b2b2b;
+    padding: 0 35px;
+}
+
+/***** Contact *****/
+#contact-left {
+    height: 400px;
+ 
+    float: left;
+    clear: left;
+    overflow: auto;
+    
+}
+#contact-right {
+    height: 400px;
+ 
+    float: right;
+    clear: right;
+    
+
+    
+}
+#contact-img {
+    border: 12px solid#ffffff;
+    
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#envelope {
+    padding: 0 10px 0 115px;
+    border: 12px black ;
+}
+#contact {
+    background-color: #ebebeb;
+
+}
+#contact .full-width {
+    padding: 100px 0;
+}
+#contact-img {
+    border: 12px solid #ffffff;
+}
+
+
+#contact h2 {
+    font-family: 'Source San Pro';
+    font-size: 36px; 
+}
+#contact #email-header {  
+
+    font-size: 32px;
+    font-weight:400;
+    margin: -30px 0 5px 0; 
+}
+#contact #email-text {
+    font-family: 'Source San Pro';
+    font-size: 29px;
+    color: #c49075;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0px 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+
+}
+#contact ul {
+    padding-left: 115px;
+}
+
+contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact ul img {
+    font-size:32px;  
+    padding-right: 48px; 
+}
+/* This code strips the UL styling */
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;    
+}
+/* And this code creates a horizontal bar, with spacing in between each menu item!*/
+ 
+li {
+    display:inline-block;
+    margin-right: 1px;
+}
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+    
+    
+}
+.third-width {
+    width: 400px;
+    float: left;
+    clear: left;
+}
